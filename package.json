@@ -1,0 +1,22 @@
+{
+  "name": "@r3pi/cart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "numeral": "^2.0.6"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "require-self": "^0.2.1",
+    "standard": "^10.0.2"
+  },
+  "scripts": {
+    "test": "mocha test.js",
+    "demo": "node demo.js",
+    "lint": "standard --fix --global describe --global it",
+    "postinstall": "require-self"
+  },
+  "author": "Christian Felder",
+  "license": "ISC"
+}
